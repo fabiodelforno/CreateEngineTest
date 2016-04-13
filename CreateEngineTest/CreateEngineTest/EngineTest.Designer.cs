@@ -33,7 +33,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.sourceV = new System.Windows.Forms.TextBox();
             this.destV = new System.Windows.Forms.TextBox();
-            this.typeTree = new System.Windows.Forms.TextBox();
             this.tenButton = new System.Windows.Forms.RadioButton();
             this.twentyButton = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
@@ -50,6 +49,7 @@
             this.attrEBox3 = new System.Windows.Forms.TextBox();
             this.attrEBox4 = new System.Windows.Forms.TextBox();
             this.attrEBox5 = new System.Windows.Forms.TextBox();
+            this.typeTreeBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -92,13 +92,6 @@
             this.destV.Name = "destV";
             this.destV.Size = new System.Drawing.Size(32, 20);
             this.destV.TabIndex = 4;
-            // 
-            // typeTree
-            // 
-            this.typeTree.Location = new System.Drawing.Point(222, 60);
-            this.typeTree.Name = "typeTree";
-            this.typeTree.Size = new System.Drawing.Size(91, 20);
-            this.typeTree.TabIndex = 5;
             // 
             // tenButton
             // 
@@ -229,11 +222,20 @@
             this.attrEBox5.Size = new System.Drawing.Size(81, 20);
             this.attrEBox5.TabIndex = 21;
             // 
+            // typeTreeBox
+            // 
+            this.typeTreeBox.FormattingEnabled = true;
+            this.typeTreeBox.Location = new System.Drawing.Point(209, 59);
+            this.typeTreeBox.Name = "typeTreeBox";
+            this.typeTreeBox.Size = new System.Drawing.Size(121, 21);
+            this.typeTreeBox.TabIndex = 22;
+            // 
             // engineTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(362, 375);
+            this.Controls.Add(this.typeTreeBox);
             this.Controls.Add(this.attrEBox5);
             this.Controls.Add(this.attrEBox4);
             this.Controls.Add(this.attrEBox3);
@@ -250,7 +252,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.twentyButton);
             this.Controls.Add(this.tenButton);
-            this.Controls.Add(this.typeTree);
             this.Controls.Add(this.destV);
             this.Controls.Add(this.sourceV);
             this.Controls.Add(this.label3);
@@ -271,7 +272,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox sourceV;
         private System.Windows.Forms.TextBox destV;
-        private System.Windows.Forms.TextBox typeTree;
         private System.Windows.Forms.RadioButton tenButton;
         private System.Windows.Forms.RadioButton twentyButton;
         private System.Windows.Forms.Label label4;
@@ -288,6 +288,7 @@
         private System.Windows.Forms.TextBox attrEBox3;
         private System.Windows.Forms.TextBox attrEBox4;
         private System.Windows.Forms.TextBox attrEBox5;
+        private System.Windows.Forms.ComboBox typeTreeBox;
     }
 }
 
