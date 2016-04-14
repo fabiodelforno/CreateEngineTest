@@ -76,10 +76,11 @@ namespace CreateEngineTest
             if(tenButton.Checked)
             {
                 Process.Start(enginePath, input);
-                //Process.Start(enginePath, input);
+                input = "oro v1 v1043156 attrNodo1 attrNodo2 attrArco1 attrArco2";
+               // Process.Start(enginePath, input);
             }
-            attrEBox1.Text = attrEBox2.Text = attrEBox3.Text = attrEBox4.Text = attrEBox5.Text = attrNBox1.Text = attrNBox2.Text = attrNBox3.Text = attrNBox4.Text = attrNBox5.Text = "";
-            sourceV.Text = destV.Text = "";
+            //attrEBox1.Text = attrEBox2.Text = attrEBox3.Text = attrEBox4.Text = attrEBox5.Text = attrNBox1.Text = attrNBox2.Text = attrNBox3.Text = attrNBox4.Text = attrNBox5.Text = "";
+            //sourceV.Text = destV.Text = "";
 
         }
 
