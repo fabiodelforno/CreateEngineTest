@@ -98,7 +98,7 @@ namespace CreateEngineTest
             {
                 sdwDBConnection.Open();
                 SqlDataReader reader = command.ExecuteReader();
-                sdwDBConnection.OpenAsync
+                //sdwDBConnection.OpenAsync
                 if (reader.HasRows)
                 {
 
